@@ -6,13 +6,12 @@ import java.util.ArrayList;
 public class Main {
     static File file = new File("src/com/company/words.txt");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         // Using only words from this list, report the total number of unique semordnilap pairs, and print 5 examples
         // (Note that lager/regal and regal/lager should be counted as one unique pair.)
 
         BufferedReader reader = null;
 
-        try {
             reader = new BufferedReader(new FileReader(file));
             String line;
             ArrayList<String> list = new ArrayList();
@@ -77,17 +76,7 @@ public class Main {
             System.out.println(checkList.size());
 
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                reader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
 
-
-        }
     }
 
     public static int recursiveBinary (ArrayList<String> list, String key, int max, int min){
