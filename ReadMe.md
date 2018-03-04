@@ -1,1 +1,1 @@
-Read Me
+I've done the best i can and i wasn't too far off with my solutions. My fault was fixating on the binary search tree. I knew it wasn't the perfect solution and I should've kept looking. In the end I did come up with the "checklist" variable. Had I played a bit more with that, maybe waited another day before checking the solution on the internet, maybe then I could've come up with a better solution myself. But I came pretty close and my solution wasn't too bad for just my third ever coding project.
